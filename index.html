@@ -128,7 +128,7 @@
                             </ul>
                             <!--Copyright Text-->
                             <div class="copy">
-                                <p>2022 &copy; Deiby-Torrez.<br>All Right Reserved.</p>
+                                <p><span id="year"></span> &copy; Deiby-Torrez.<br>All Right Reserved.</p>
                             </div>
                         </div>
 
@@ -1111,7 +1111,7 @@
             </div>
         </div>
         <!--Ajax Portfolio Container End-->
-
+        <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
         <!--Jquery JS-->
         <script src="js/jquery.min.js"></script>
         <!--Plugins JS-->
